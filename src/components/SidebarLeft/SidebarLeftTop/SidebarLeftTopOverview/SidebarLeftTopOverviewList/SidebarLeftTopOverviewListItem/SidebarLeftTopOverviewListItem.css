@@ -14,7 +14,11 @@
 }
 
 .sidebar-left-top-overview-list-item-text{
-    color: #702DFF;
+    color: #202020;
     font-size: 16px;
     font-weight: 500;
+}
+
+.active{
+    color: #702DFF;
 }

@@ -1,0 +1,8 @@
+.sidebar-left-bottom-settings-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-self: stretch;
+}

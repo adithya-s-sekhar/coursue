@@ -16,23 +16,28 @@ const SidebarLeftTopOverviewList = () => {
         <div className='sidebar-left-top-overview-list'>
             <SidebarLeftTopOverviewListItem 
                 icon = {icon_dashboard}
-                name = "Dashboard"
+                name = 'Dashboard'
+                active = 'active'
             />
             <SidebarLeftTopOverviewListItem 
                 icon = {icon_inbox}
-                name = "Inbox"
+                name = 'Inbox'
+                active = ''
             />
             <SidebarLeftTopOverviewListItem 
                 icon = {icon_lesson}
-                name = "Lesson"
+                name = 'Lesson'
+                active = ''
             />
             <SidebarLeftTopOverviewListItem 
                 icon = {icon_task}
-                name = "Task"
+                name = 'Task'
+                active = ''
             />
             <SidebarLeftTopOverviewListItem 
                 icon = {icon_group}
-                name = "Group"
+                name = 'Group'
+                active = ''
             />
         </div>
      );

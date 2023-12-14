@@ -1,0 +1,27 @@
+.sidebar-left-bottom-settings-list-item{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 40px;
+}
+
+.sidebar-left-bottom-settings-list-item-icon{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-left-bottom-settings-list-item-icon svg{
+    width: 16px;
+    height: 16px;
+}
+
+.sidebar-left-bottom-settings-list-item-name{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+}
