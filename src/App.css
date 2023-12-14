@@ -1,6 +1,7 @@
 .app{
     display: flex;
-    /* gap: 32px; */
+    gap: 32px;
+    align-items: center;
     border-radius: 20px;
     background-color: #fff;
 }
