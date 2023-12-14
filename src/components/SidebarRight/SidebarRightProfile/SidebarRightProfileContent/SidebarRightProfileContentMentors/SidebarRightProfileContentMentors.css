@@ -1,0 +1,8 @@
+.sidebar-right-profile-content-mentors{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+}
