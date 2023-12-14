@@ -1,0 +1,19 @@
+.sidebar-left-top-overview-list-item{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    align-self: stretch;
+    gap: 12px;
+    border-radius: 40px;
+}
+
+.sidebar-left-top-overview-list-item-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.sidebar-left-top-overview-list-item-text{
+    color: #702DFF;
+    font-size: 16px;
+    font-weight: 500;
+}
