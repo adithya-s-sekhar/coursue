@@ -1,0 +1,8 @@
+/*Test flex end after this is done */
+.sidebar-right-profile-content-graphs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+    
+}
