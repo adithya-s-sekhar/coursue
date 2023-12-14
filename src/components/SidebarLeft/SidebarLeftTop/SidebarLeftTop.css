@@ -1,0 +1,6 @@
+.sidebar-left-top{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
