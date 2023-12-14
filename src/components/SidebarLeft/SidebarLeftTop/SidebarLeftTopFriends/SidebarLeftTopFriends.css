@@ -1,0 +1,7 @@
+.sidebar-left-top-friends{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 10px;
+}

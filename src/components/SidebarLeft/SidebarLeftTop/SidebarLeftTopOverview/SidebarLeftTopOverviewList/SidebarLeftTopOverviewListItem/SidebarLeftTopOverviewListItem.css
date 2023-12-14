@@ -5,9 +5,10 @@
     align-self: stretch;
     gap: 12px;
     border-radius: 40px;
+    overflow: hidden;
 }
 
-.sidebar-left-top-overview-list-item-icon{
+.sidebar-left-top-overview-list-item-icon svg{
     width: 16px;
     height: 16px;
 }

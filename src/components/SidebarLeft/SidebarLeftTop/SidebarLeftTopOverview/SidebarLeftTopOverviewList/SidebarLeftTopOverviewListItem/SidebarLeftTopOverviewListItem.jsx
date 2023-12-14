@@ -9,7 +9,7 @@ const SidebarLeftTopOverviewListItem = (props) => {
             <div className='sidebar-left-top-overview-list-item-icon'>
                 {icon}
             </div>
-            <div className='sidebar-left-top-overview-list-item-icon'>
+            <div className='sidebar-left-top-overview-list-item-text'>
                 {name}
             </div>
         </div>
