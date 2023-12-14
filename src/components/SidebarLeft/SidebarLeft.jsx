@@ -1,9 +1,12 @@
 import './SidebarLeft.css';
+import SidebarLeftBottom from './SidebarLeftBottom/SidebarLeftBottom';
+import SidebarLeftTop from './SidebarLeftTop/SidebarLeftTop';
 
 const SidebarLeft = () => {
     return ( 
         <div className='sidebar-left'>
-            
+            <SidebarLeftTop />
+            <SidebarLeftBottom />
         </div>
      );
 }
