@@ -1,0 +1,7 @@
+.main-content{
+    display: flex;
+    gap: 24px;
+    padding-top: 20px;
+    align-items: center;
+    align-self: stretch;
+}
