@@ -1,4 +1,4 @@
-import './MainContentSearch';
+import './MainContentSearch.css';
 import MainContentSearchBox from './MainContentSearchBox/MainContentSearchBox';
 import MainContentSearchFilter from './MainContentSearchFilter/MainContentSearchFilter';
 

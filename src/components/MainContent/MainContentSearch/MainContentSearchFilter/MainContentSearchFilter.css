@@ -1,0 +1,14 @@
+.main-content-search-filter{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 50px;
+}
+
+.main-content-search-filter svg{
+    width: 32px;
+    height: 32px;
+}
