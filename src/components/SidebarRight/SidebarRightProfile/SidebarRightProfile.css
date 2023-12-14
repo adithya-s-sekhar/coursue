@@ -1,0 +1,10 @@
+.sidebar-right-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    gap: 36px;
+}
+
+/* Check here for issues, self written styles */

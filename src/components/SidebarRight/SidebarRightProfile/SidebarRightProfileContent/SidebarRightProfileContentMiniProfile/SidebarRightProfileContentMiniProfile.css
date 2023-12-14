@@ -1,0 +1,69 @@
+.sidebar-right-profile-content-mini-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    gap: 16px;
+    padding: 0px 20px;
+}
+
+.sidebar-right-profile-content-mini-profile-circle-border{
+    position: relative;
+}
+
+.sidebar-right-profile-content-mini-profile-circle-image-mask{
+    width: 72px;
+    height: 72px;
+    /*CHeck these later*/   
+    mask-image: url('../../../../../assets/mask72.png');
+    mask-repeat: no-repeat;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+}
+
+.sidebar-right-profile-content-mini-profile-circle-image-mask img{
+    width: 72px;
+}
+
+.sidebar-right-profile-content-mini-profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    gap: 6px;
+}
+
+.sidebar-right-profile-content-mini-profile-details-greeting{
+    color: #202020;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.sidebar-right-profile-content-mini-profile-details-advice{
+    color: #7E7E7E;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.sidebar-right-profile-content-mini-profile-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.sidebar-right-profile-content-mini-profile-icons-item{
+    border-radius: 50%;
+    border: 1px solid #9E9E9E;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}

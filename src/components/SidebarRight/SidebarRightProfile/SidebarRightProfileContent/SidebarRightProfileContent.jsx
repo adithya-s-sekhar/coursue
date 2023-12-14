@@ -6,7 +6,10 @@ import SidebarRightProfileContentMiniProfile from './SidebarRightProfileContentM
 const SidebarRightProfileContent = () => {
     return ( 
         <div className='sidebar-right-profile-content'>
-            <SidebarRightProfileContentMiniProfile />
+            <SidebarRightProfileContentMiniProfile 
+                image = 'prasant.jpg'
+                name = 'Prasant'
+            />
             <SidebarRightProfileContentGraphs />
             <SidebarRightProfileContentMentors />
         </div>
