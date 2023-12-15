@@ -6,7 +6,14 @@ const MainContentMentorsList = () => {
     return ( 
         <div className='main-content-mentors-list'>
             <MainContentMentorsListHeader />
-            <MainContentMentorsListItem />
+            <MainContentMentorsListItem 
+                image = 'prasant.jpg'
+                name = 'Prasant Kumar Singh'
+                date = '25/2/2023'
+                type = 'Frontend'
+                title = 'Understanding Concept Of React'
+                action = 'Follow'
+            />
         </div>
      );
 }
