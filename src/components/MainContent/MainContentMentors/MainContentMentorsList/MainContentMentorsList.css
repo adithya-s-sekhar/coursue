@@ -1,0 +1,8 @@
+.main-content-mentors-list{
+    display: flex;
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
