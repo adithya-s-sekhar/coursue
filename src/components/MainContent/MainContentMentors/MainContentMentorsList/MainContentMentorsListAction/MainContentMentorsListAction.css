@@ -1,9 +1,13 @@
 .main-content-mentors-list-action{
     display: flex;
-    padding: 2px 8px;
     justify-content: center;
     align-items: center;
+    min-height: 30px;
+}
+
+.main-content-mentors-list-action-text{
     border-radius: 8px;
+    padding: 2px 8px;
     background: rgba(51, 102, 204, 0.20);
     color: #36C;
     font-size: 10px;

@@ -1,4 +1,11 @@
 .main-content-mentors-list-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+}
+
+.main-content-mentors-list-title-text{
     color: #202020;
     text-align: center;
     font-size: 12px;

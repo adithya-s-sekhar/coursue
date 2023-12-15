@@ -5,8 +5,10 @@ const MainContentMentorsListType = (props) => {
 
     return ( 
         <div className='main-content-mentors-list-type'>
+            <div className='main-content-mentors-list-type-text'>
                 {type}
             </div>
+        </div>
      );
 }
  

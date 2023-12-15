@@ -5,7 +5,9 @@ const MainContentMentorsListTitle = (props) => {
 
     return ( 
         <div className='main-content-mentors-list-title'>
-            {title}
+            <div className='main-content-mentors-list-title-text'>
+                {title}
+            </div>
         </div>
      );
 }

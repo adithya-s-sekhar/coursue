@@ -1,8 +1,12 @@
 .main-content-mentors-list-type{
     display: flex;
-    padding: 2px 8px;
     justify-content: center;
     align-items: center;
+    min-height: 30px;
+}
+
+.main-content-mentors-list-type-text{
+    padding: 2px 8px;
     border-radius: 8px;
     background: rgba(112, 45, 255, 0.20);
     color: #702DFF;
