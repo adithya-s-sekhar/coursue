@@ -14,6 +14,14 @@ const MainContentMentorsList = () => {
                 title = 'Understanding Concept Of React'
                 action = 'Follow'
             />
+            <MainContentMentorsListItem 
+                image = 'prasant.jpg'
+                name = 'Ravi Kumar'
+                date = '25/2/2023'
+                type = 'Frontend'
+                title = 'Understanding Concept Of React'
+                action = 'Follow'
+            />
         </div>
      );
 }
