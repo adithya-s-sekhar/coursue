@@ -1,27 +1,60 @@
 import './MainContentMentorsList.css';
-import MainContentMentorsListHeader from './MainContentMentorsListHeader/MainContentMentorsListHeader';
-import MainContentMentorsListItem from './MainContentMentorsListItem/MainContentMentorsListItem';
+import MainContentMentorsListInstructor from './MainContentMentorsListInstructor/MainContentMentorsListInstructor';
+import MainContentMentorsListTitle from './MainContentMentorsListTitle/MainContentMentorsListTitle';
+import MainContentMentorsListType from './MainContentMentorsListType/MainContentMentorsListType';
+import MainContentMentorsListAction from './MainContentMentorsListAction/MainContentMentorsListAction';
 
-const MainContentMentorsList = () => {
+const MainContentMentorsList = (props) => {
+    const mentors = props.mentors;
+
     return ( 
         <div className='main-content-mentors-list'>
-            <MainContentMentorsListHeader />
-            <MainContentMentorsListItem 
-                image = 'prasant.jpg'
-                name = 'Prasant Kumar Singh'
-                date = '25/2/2023'
-                type = 'Frontend'
-                title = 'Understanding Concept Of React'
-                action = 'Follow'
-            />
-            <MainContentMentorsListItem 
-                image = 'prasant.jpg'
-                name = 'Ravi Kumar'
-                date = '25/2/2023'
-                type = 'Frontend'
-                title = 'Understanding Concept Of React'
-                action = 'Follow'
-            />
+            <div className='main-content-mentors-list-col'>
+                <div className='main-content-mentors-list-header'>
+                    Instructor Name & Date
+                </div>
+                {mentors.map((mentor) => (
+                        <MainContentMentorsListInstructor 
+                            image = {mentor.image}
+                            name = {mentor.name}
+                            date = {mentor.date}
+                            key = {mentor.id}
+                        />
+                ))}
+            </div>
+            <div className='main-content-mentors-list-col'>
+                <div className='main-content-mentors-list-header'>
+                    Course Type
+                </div>
+                {mentors.map((mentor) => (
+                    <MainContentMentorsListType
+                        type = {mentor.type}
+                        key = {mentor.id}
+                    />
+                ))}
+            </div>
+            <div className='main-content-mentors-list-col'>
+                <div className='main-content-mentors-list-header'>
+                    Course Title
+                </div>
+                {mentors.map((mentor) => (
+                    <MainContentMentorsListTitle
+                        title = {mentor.title}
+                        key = {mentor.id}
+                    />
+                ))}
+            </div>
+            <div className='main-content-mentors-list-col'>
+                <div className='main-content-mentors-list-header'>
+                    Actions
+                </div>
+                {mentors.map((mentor) => (
+                    <MainContentMentorsListAction
+                        action = {mentor.action}
+                        key = {mentor.id}
+                    />
+                ))}
+            </div>
         </div>
      );
 }

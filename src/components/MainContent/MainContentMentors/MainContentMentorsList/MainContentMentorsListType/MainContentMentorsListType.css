@@ -1,0 +1,12 @@
+.main-content-mentors-list-type{
+    display: flex;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(112, 45, 255, 0.20);
+    color: #702DFF;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
