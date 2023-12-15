@@ -1,0 +1,51 @@
+.main-content-watched-cards-item{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.main-content-watched-cards-item-icon{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(112, 45, 255, 0.20);
+}
+
+.main-content-watched-cards-item-icon svg{
+    width: 16px;
+    height: 16px;
+}
+
+.main-content-watched-cards-item-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.main-content-watched-cards-item-details-watched{
+    color: #5F5F5F;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main-content-watched-cards-item-details-subject{
+    color: #202020;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main-content-watched-cards-item-overflow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-watched-cards-item-overflow svg{
+    width: 24px;
+    height: 24px;
+}

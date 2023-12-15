@@ -3,8 +3,22 @@ import MainContentWatchedCardsItem from './MainContentWatchedCardsItem/MainConte
 
 const MainContentWatchedCards = () => {
     return ( 
-        <div className='main-content-watched-card'>
-            <MainContentWatchedCardsItem />
+        <div className='main-content-watched-cards'>
+            <MainContentWatchedCardsItem 
+                subject = 'Product Design'
+                total = '8'
+                watched = '2'
+            />
+            <MainContentWatchedCardsItem 
+                subject = 'Product Design'
+                total = '8'
+                watched = '2'
+            />
+            <MainContentWatchedCardsItem 
+                subject = 'Product Design'
+                total = '8'
+                watched = '2'
+            />
         </div>
      );
 }

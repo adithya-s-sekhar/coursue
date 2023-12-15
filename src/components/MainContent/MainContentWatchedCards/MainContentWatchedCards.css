@@ -1,0 +1,7 @@
+.main-content-watched-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    align-self: stretch;
+}
