@@ -1,5 +1,5 @@
 import Ad from './Ad/Ad';
-import MainContentMentors from './MainContentMentors/MainContentMentors';
+import Mentors from './Mentors/Mentors';
 import Videos from './Videos/Videos';
 import WatchedCards from './WatchedCards/WatchedCards';
 import Search from './Search/Search';
@@ -11,7 +11,7 @@ const MainContent = () => {
             <Ad />
             <WatchedCards />
             <Videos />
-            <MainContentMentors />
+            <Mentors />
         </div>
      );
 }

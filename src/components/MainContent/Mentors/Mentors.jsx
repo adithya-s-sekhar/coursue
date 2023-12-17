@@ -1,6 +1,6 @@
-import MainContentMentorsList from './MainContentMentorsList/MainContentMentorsList';
+import MentorsList from './MentorsList/MentorsList';
 
-const MainContentMentors = () => {
+const Mentors = () => {
     const mentors = [
         {
             image: 'prasant.jpg',
@@ -23,20 +23,20 @@ const MainContentMentors = () => {
     ]
 
     return ( 
-    <div className='main-content-mentors'>
-        <div className='main-content-mentors-header'>
-            <div className='main-content-mentors-header-text'>
+    <div className='mentors'>
+        <div className='mentors-header'>
+            <div className='mentors-header-text'>
                 Your Mentor
             </div>
-            <div className='main-content-mentors-header-see-all'>
+            <div className='mentors-header-see-all'>
                 <a href='#'>See All</a>
             </div>
         </div>
-        <MainContentMentorsList 
+        <MentorsList 
             mentors = {mentors}
         />
     </div>
     );
 }
  
-export default MainContentMentors;
+export default Mentors;

@@ -668,7 +668,7 @@ Ask for advice. */
     height: 8px;
 }
 
-.main-content-mentors{
+.mentors{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -676,27 +676,27 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-mentors-header{
+.mentors-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
 }
 
-.main-content-mentors-header-text{
+.mentors-header-text{
     color: #202020;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-mentors-header-see-all{
+.mentors-header-see-all{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.main-content-mentors-header-see-all a{
+.mentors-header-see-all a{
     color: #36C;
     text-align: right;
     font-size: 12px;
@@ -705,7 +705,7 @@ Ask for advice. */
     text-transform: capitalize;
 }
 
-.main-content-mentors-list{
+.mentors-list{
     display: flex;
     padding: 20px 24px;
     align-items: flex-start;
@@ -714,7 +714,7 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-mentors-list-col{
+.mentors-list-col{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -723,7 +723,7 @@ Ask for advice. */
     gap: 20px;
 }
 
-.main-content-mentors-list-header{
+.mentors-list-header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -735,7 +735,7 @@ Ask for advice. */
     text-transform: uppercase;
 }
 
-.main-content-mentors-list-instructor{
+.mentors-list-instructor{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -743,44 +743,44 @@ Ask for advice. */
     min-height: 30px;
 }
 
-.main-content-mentors-list-instructor-image-mask{
+.mentors-list-instructor-image-mask{
     mask-image: url('./assets/mask24.png');
 }
 
-.main-content-mentors-list-instructor-image-mask img{
+.mentors-list-instructor-image-mask img{
     width: 24px;
     height: 24px;
 }
 
-.main-content-mentors-list-instructor-details{
+.mentors-list-instructor-details{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
 }
 
-.main-content-mentors-list-instructor-name{
+.mentors-list-instructor-name{
     color: #202020;
     font-size: 12px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-mentors-list-instructor-date{
+.mentors-list-instructor-date{
     color: #5F5F5F;
     font-size: 9px;
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.main-content-mentors-list-type{
+.mentors-list-type{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 30px;
 }
 
-.main-content-mentors-list-type-text{
+.mentors-list-type-text{
     padding: 2px 8px;
     border-radius: 8px;
     background: rgba(112, 45, 255, 0.20);
@@ -790,14 +790,14 @@ Ask for advice. */
     text-transform: uppercase;
 }
 
-.main-content-mentors-list-title{
+.mentors-list-title{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 30px;
 }
 
-.main-content-mentors-list-title-text{
+.mentors-list-title-text{
     color: #202020;
     text-align: center;
     font-size: 12px;
@@ -805,14 +805,14 @@ Ask for advice. */
     text-transform: capitalize;
 }
 
-.main-content-mentors-list-action{
+.mentors-list-action{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 30px;
 }
 
-.main-content-mentors-list-action-text{
+.mentors-list-action-text{
     border-radius: 8px;
     padding: 2px 8px;
     background: rgba(51, 102, 204, 0.20);
