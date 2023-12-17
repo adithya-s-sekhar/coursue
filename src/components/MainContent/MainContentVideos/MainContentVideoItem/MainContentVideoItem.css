@@ -1,4 +1,4 @@
-.main-content-videos-list-item{
+.main-content-video-item{
     display: flex;
     padding: 12px;
     flex-direction: column;
@@ -10,13 +10,13 @@
     position: relative;
 }
 
-.main-content-videos-list-item-thumb{
+.main-content-video-item-thumb{
     height: 113px;
     border-radius: 12px;
     align-self: stretch;
 }
 
-.main-content-videos-list-item-category{
+.main-content-video-item-category{
     display: flex;
     padding: 4px 10px;
     justify-content: center;
@@ -29,14 +29,14 @@
     text-transform: uppercase;
 }
 
-.main-content-videos-list-item-title{
+.main-content-video-item-title{
     color: #202020;
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-videos-list-item-progress{
+.main-content-video-item-progress{
     display: flex;
     height: 6px;
     justify-content: flex-start;
@@ -47,13 +47,13 @@
     border-radius: 20px;
 }
 
-.main-content-videos-list-item-progress-completed{
+.main-content-video-item-progress-completed{
     height: 6px;
     background-color: #702dff;
     border-radius: 20px;
 }
 
-.main-content-videos-list-item-uploader{
+.main-content-video-item-uploader{
     display: flex;
     align-items: center;
     align-self: stretch;
@@ -61,37 +61,37 @@
     border-radius: 0px 0px 20px 20px;
 }
 
-.main-content-videos-list-item-uploader-image-mask{
-    mask-image: url('../../../../../assets/mask24.png');
+.main-content-video-item-uploader-image-mask{
+    mask-image: url('../../../../assets/mask24.png');
 }
 
-.main-content-videos-list-item-uploader-image-mask img{
+.main-content-video-item-uploader-image-mask img{
     width: 24px;
     height: 24px;
 }
 
-.main-content-videos-list-item-uploader-details{
+.main-content-video-item-uploader-details{
     display: flex;
     flex-direction: column;
     gap: 4px;
     align-items: flex-start;
 }
 
-.main-content-videos-list-item-uploader-name{
+.main-content-video-item-uploader-name{
     color: #202020;
     font-size: 10px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-videos-list-item-uploader-job{
+.main-content-video-item-uploader-job{
     color: #202020;
     font-size: 8px;
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.main-content-videos-list-item-heart{
+.main-content-video-item-heart{
     display: flex;
     width: 20px;
     height: 20px;
@@ -105,7 +105,7 @@
     left: 79%;
 }
 
-.main-content-videos-list-item-heart svg{
+.main-content-video-item-heart svg{
     width: 8px;
     height: 8px;
 }
