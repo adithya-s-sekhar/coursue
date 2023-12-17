@@ -633,6 +633,7 @@
 .profile-content{
     display: flex;
     flex-direction: column;
+    gap: 36px;
 }
 
 .mini-profile{
@@ -708,7 +709,53 @@
     gap: 12px;
 }
 
+.profile-mentors{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
+.profile-mentors-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-mentors-header-button{
+    border-radius: 50%;
+    border: 1px solid #9e9e9e;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-mentors-header-button svg{
+    width: 12px;
+    height: 12px;
+}
+
+.profile-mentors-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-mentors-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.profile-mentors-list-item:not(:last-child){
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.profile-mentors-list-item-details{
+    display: flex;
+    gap: 8px;
+}
 
 .profile-mentors-list-item-image-mask{
     mask-image: url('./assets/mask24.png');
@@ -717,4 +764,55 @@
 
 .profile-mentors-list-item-image-mask img{
     width: 24px;
+}
+
+.profile-mentors-list-item-details-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile-mentors-list-item-name{
+    color: #202020;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.profile-mentors-list-item-job{
+    color: #5F5F5F;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.profile-mentors-list-item-follow{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+    background: #702DFF;
+}
+
+.profile-mentors-list-item-follow-text{
+    color: #FFF;
+    font-size: 8px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.profile-mentors-see-all-btn{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: rgba(112, 45, 255, 0.20);
+}
+
+.profile-mentors-see-all-btn-text{
+    color: #702dff;
+    font-size: 12px;
+    font-weight: 500;
 }

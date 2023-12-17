@@ -252,8 +252,7 @@
     padding: 8px 12px;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
-    background: rgba(112, 45, 255, 0.20);
+
     align-self: stretch;
 }
 
