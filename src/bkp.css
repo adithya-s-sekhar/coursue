@@ -184,12 +184,7 @@
     align-self: stretch;
 }
 
-.profile-header-text{
-    color: #202020;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
+
 
 .profile-header-icon{
     display: flex;
