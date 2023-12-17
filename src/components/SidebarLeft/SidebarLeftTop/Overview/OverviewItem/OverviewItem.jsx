@@ -1,5 +1,3 @@
-import './OverviewItem.css';
-
 const OverviewItem = (props) => {
     const icon = props.icon;
     const name = props.name;

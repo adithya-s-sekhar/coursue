@@ -38,6 +38,41 @@ Ask for advice. */
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    overflow: hidden;
+}
+
+.logo-icon{
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    background-color: #702dff;
+    border-radius: 50%;
+}
+
+.logo-icon svg{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #702DFF -3.24%, #7550FB 29.22%, #4A3AFF 74%, #4A3AFF 101.79%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .overview{
     display: flex;
     flex-direction: column;
@@ -68,6 +103,170 @@ Ask for advice. */
     align-items: center;
     align-self: stretch;
     gap: 8px;
+}
+
+.overview-item{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    align-self: stretch;
+    gap: 12px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.overview-item-icon svg{
+    width: 16px;
+    height: 16px;
+}
+
+.overview-item-text{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.active{
+    color: #702DFF;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 10px;
+}
+
+.friends-header{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.friends-header-text{
+    color: #3F3F3F;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.friends-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.friends-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.friends-item-image-mask{
+    max-width: 24px;
+    max-height: 24px;
+    mask-image: url('./assets/mask24.png');
+    mask-repeat: no-repeat;
+}
+
+.friends-item-image-mask img{
+    max-width: 24px;
+}
+
+.friends-item-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.friends-item-details-name{
+    align-self: stretch;
+    color: #202020;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.friends-item-details-job{
+    align-self: stretch;
+    color: #202020;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.sidebar-left-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.sidebar-left-bottom-settings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sidebars-left-bottom-settings-header{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.sidebar-left-bottom-settings-header-text{
+    color: #3F3F3F;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sidebar-left-bottom-settings-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.settings-item{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 40px;
+}
+
+.settings-item-icon{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-item-icon svg{
+    width: 16px;
+    height: 16px;
+}
+
+.settings-item-name{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* Main Content */
