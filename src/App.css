@@ -326,20 +326,12 @@
     height: 8px;
 }
 
-.ad-decor{
-    order: 2;
-    width: 50%;
-    height: 100%;
-    position: relative;
-    outline: 1px solid red;
-}
-
 .ad-decor-star1 {
     fill: rgba(255, 255, 255, 0.25);
     width: 80px;
     height: 80px;
     position: absolute;
-    top: 23%;
+    top: 20%;
     left: 60%;
 }
 
@@ -349,8 +341,8 @@
     height: 118px;
     position: absolute;
     fill: rgba(255, 255, 255, 0.10);
-    outline: 1px solid blue;
-    top: 0%;
+    top: 14%;
+    left: 67%;
 }
 
 .ad-decor-star3{
@@ -358,6 +350,8 @@
     height: 60px;
     position: absolute;
     fill: rgba(255, 255, 255, 0.10);
+    top: 15%;
+    left: 55%;
 }
 
 .ad-decor-star4{
@@ -365,6 +359,8 @@
     height: 80px;
     position: absolute;
     fill: rgba(255, 255, 255, 0.10);
+    top: 25%;
+    left: 67%;
 }
 
 .ad-decor-star5{
@@ -372,6 +368,8 @@
     height: 118px;
     position: absolute;
     fill: rgba(255, 255, 255, 0.10);
+    top: 30%;
+    left: 55%;
 }
 
 .videos-item-thumb{
