@@ -280,7 +280,7 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-search{
+.search{
     display: flex;
     justify-content: center;
     gap: 12px;
@@ -288,7 +288,7 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-search-box{
+.search-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,12 +298,12 @@ Ask for advice. */
 
 }
 
-.main-content-search-box svg{
+.search-box svg{
     position: absolute;
     left: 4%;
 }
 
-.main-content-search-box input{
+.search-box input{
     text-indent: 6%;
     background: #FFF;
     padding: 20px 16px;
@@ -316,7 +316,7 @@ Ask for advice. */
     width: 100%;
 }
 
-.main-content-search-filter{
+.search-filter{
     display: flex;
     padding: 12px;
     justify-content: center;
@@ -326,12 +326,12 @@ Ask for advice. */
     border-radius: 50px;
 }
 
-.main-content-search-filter svg{
+.search-filter svg{
     width: 32px;
     height: 32px;
 }
 
-.main-content-ad{
+.ad{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -340,7 +340,7 @@ Ask for advice. */
     background-color: #702dff;
 }
 
-.main-content-ad-text{
+.ad-text{
     max-width: 40%;
     display: flex;
     flex-direction: column;
@@ -350,20 +350,20 @@ Ask for advice. */
     align-items: flex-start;
 }
 
-.main-content-ad-text-heading{
+.ad-text-heading{
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.main-content-ad-text-caption{
+.ad-text-caption{
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
 }
 
-.main-content-ad-text-join{
+.ad-text-join{
     display: inline-flex;
     padding: 8px 12px;
     align-items: center;
@@ -372,14 +372,14 @@ Ask for advice. */
     background: #202020;
 }
 
-.main-content-ad-text-join-label{
+.ad-text-join-label{
     color: #FFF;
     text-align: right;
     font-size: 12px;
     font-weight: 500;
 }
 
-.main-content-ad-text-join-btn{
+.ad-text-join-btn{
     display: flex;
     padding: 6px;
     justify-content: center;
@@ -388,18 +388,18 @@ Ask for advice. */
     background: #FFF;
 }
 
-.main-content-ad-text-join-btn svg{
+.ad-text-join-btn svg{
     width: 8px;
     height: 8px
 }
 
-.main-content-ad-decor {
+.ad-decor {
     width: 100%;
     height: 181px;
     position: relative;
 }
 
-.main-content-ad-decor-star1 {
+.ad-decor-star1 {
     fill: rgba(255, 255, 255, 0.25);
     width: 80px;
     height: 80px;
@@ -409,7 +409,7 @@ Ask for advice. */
 }
 
 
-.main-content-ad-decor-star2{
+.ad-decor-star2{
     width: 61px;
     height: 118px;
     position: absolute;
@@ -418,7 +418,7 @@ Ask for advice. */
     left: 75%;
 }
 
-.main-content-ad-decor-star3{
+.ad-decor-star3{
     width: 61px;
     height: 60px;
     position: absolute;
@@ -427,7 +427,7 @@ Ask for advice. */
     left: 23%;
 }
 
-.main-content-ad-decor-star4{
+.ad-decor-star4{
     width: 80px;
     height: 80px;
     position: absolute;
@@ -436,7 +436,7 @@ Ask for advice. */
     left: 75%;
 }
 
-.main-content-ad-decor-star5{
+.ad-decor-star5{
     width: 80px;
     height: 118px;
     position: absolute;
@@ -445,7 +445,7 @@ Ask for advice. */
     left: 10%;
 }
 
-.main-content-watched-cards{
+.watched-cards{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -453,7 +453,7 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-watched-cards-item{
+.watched-cards-item{
     display: flex;
     padding: 12px;
     justify-content: center;
@@ -461,7 +461,7 @@ Ask for advice. */
     gap: 17px;
 }
 
-.main-content-watched-cards-item-icon{
+.watched-cards-item-icon{
     display: flex;
     padding: 12px;
     justify-content: center;
@@ -470,42 +470,42 @@ Ask for advice. */
     background: rgba(112, 45, 255, 0.20);
 }
 
-.main-content-watched-cards-item-icon svg{
+.watched-cards-item-icon svg{
     width: 16px;
     height: 16px;
 }
 
-.main-content-watched-cards-item-details{
+.watched-cards-item-details{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
 
-.main-content-watched-cards-item-details-watched{
+.watched-cards-item-details-watched{
     color: #5F5F5F;
     font-size: 12px;
     font-weight: 400;
 }
 
-.main-content-watched-cards-item-details-subject{
+.watched-cards-item-details-subject{
     color: #202020;
     font-size: 12px;
     font-weight: 600;
 }
 
-.main-content-watched-cards-item-overflow{
+.watched-cards-item-overflow{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-content-watched-cards-item-overflow svg{
+.watched-cards-item-overflow svg{
     width: 24px;
     height: 24px;
 }
 
-.main-content-videos{
+.videos{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -513,28 +513,28 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-videos-header{
+.videos-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
 }
 
-.main-content-videos-header-text{
+.videos-header-text{
     color: #202020;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-videos-header-btns{
+.videos-header-btns{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 12px;
 }
 
-.main-content-videos-header-btns-item{
+.videos-header-btns-item{
     display: flex;
     padding: 6px;
     justify-content: center;
@@ -543,12 +543,12 @@ Ask for advice. */
     border: 1px solid #9E9E9E;
 }
 
-.main-content-videos-header-btns-item svg{
+.videos-header-btns-item svg{
     width: 12px;
     height: 12px;
 }
 
-.main-content-videos-list{
+.videos-list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -556,7 +556,7 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.main-content-video-item{
+.videos-item{
     display: flex;
     padding: 12px;
     flex-direction: column;
@@ -568,13 +568,13 @@ Ask for advice. */
     position: relative;
 }
 
-.main-content-video-item-thumb{
+.videos-item-thumb{
     height: 113px;
     border-radius: 12px;
     align-self: stretch;
 }
 
-.main-content-video-item-category{
+.videos-item-category{
     display: flex;
     padding: 4px 10px;
     justify-content: center;
@@ -587,14 +587,14 @@ Ask for advice. */
     text-transform: uppercase;
 }
 
-.main-content-video-item-title{
+.videos-item-title{
     color: #202020;
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-video-item-progress{
+.videos-item-progress{
     display: flex;
     height: 6px;
     justify-content: flex-start;
@@ -605,13 +605,13 @@ Ask for advice. */
     border-radius: 20px;
 }
 
-.main-content-video-item-progress-completed{
+.videos-item-progress-completed{
     height: 6px;
     background-color: #702dff;
     border-radius: 20px;
 }
 
-.main-content-video-item-uploader{
+.videos-item-uploader{
     display: flex;
     align-items: center;
     align-self: stretch;
@@ -619,37 +619,37 @@ Ask for advice. */
     border-radius: 0px 0px 20px 20px;
 }
 
-.main-content-video-item-uploader-image-mask{
+.videos-item-uploader-image-mask{
     mask-image: url('./assets/mask24.png');
 }
 
-.main-content-video-item-uploader-image-mask img{
+.videos-item-uploader-image-mask img{
     width: 24px;
     height: 24px;
 }
 
-.main-content-video-item-uploader-details{
+.videos-item-uploader-details{
     display: flex;
     flex-direction: column;
     gap: 4px;
     align-items: flex-start;
 }
 
-.main-content-video-item-uploader-name{
+.videos-item-uploader-name{
     color: #202020;
     font-size: 10px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.main-content-video-item-uploader-job{
+.videos-item-uploader-job{
     color: #202020;
     font-size: 8px;
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.main-content-video-item-heart{
+.videos-item-heart{
     display: flex;
     width: 20px;
     height: 20px;
@@ -663,7 +663,7 @@ Ask for advice. */
     left: 79%;
 }
 
-.main-content-video-item-heart svg{
+.videos-item-heart svg{
     width: 8px;
     height: 8px;
 }

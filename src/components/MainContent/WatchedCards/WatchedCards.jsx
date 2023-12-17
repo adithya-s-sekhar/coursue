@@ -1,19 +1,19 @@
-import MainContentWatchedCardsItem from './MainContentWatchedCardsItem/MainContentWatchedCardsItem';
+import WatchedCardsItem from './WatchedCardsItem/WatchedCardsItem';
 
-const MainContentWatchedCards = () => {
+const WatchedCards = () => {
     return ( 
-        <div className='main-content-watched-cards'>
-            <MainContentWatchedCardsItem 
+        <div className='watched-cards'>
+            <WatchedCardsItem 
                 subject = 'Product Design'
                 total = '8'
                 watched = '2'
             />
-            <MainContentWatchedCardsItem 
+            <WatchedCardsItem 
                 subject = 'Product Design'
                 total = '8'
                 watched = '2'
             />
-            <MainContentWatchedCardsItem 
+            <WatchedCardsItem 
                 subject = 'Product Design'
                 total = '8'
                 watched = '2'
@@ -22,4 +22,4 @@ const MainContentWatchedCards = () => {
      );
 }
  
-export default MainContentWatchedCards;
+export default WatchedCards;

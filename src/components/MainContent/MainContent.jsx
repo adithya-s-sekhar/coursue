@@ -1,16 +1,16 @@
-import MainContentAd from './MainContentAd/MainContentAd';
+import Ad from './Ad/Ad';
 import MainContentMentors from './MainContentMentors/MainContentMentors';
-import MainContentVideos from './MainContentVideos/MainContentVideos';
-import MainContentWatchedCards from './MainContentWatchedCards/MainContentWatchedCards';
-import MainContentSearch from './MainContentSearch/MainContentSearch';
+import Videos from './Videos/Videos';
+import WatchedCards from './WatchedCards/WatchedCards';
+import Search from './Search/Search';
 
 const MainContent = () => {
     return ( 
         <div className='main-content'>
-            <MainContentSearch />
-            <MainContentAd />
-            <MainContentWatchedCards />
-            <MainContentVideos />
+            <Search />
+            <Ad />
+            <WatchedCards />
+            <Videos />
             <MainContentMentors />
         </div>
      );
