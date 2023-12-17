@@ -1,12 +1,12 @@
 import SidebarLeftTopFriends from './SidebarLeftTopFriends/SidebarLeftTopFriends';
 import SidebarLeftTopLogo from './SidebarLeftTopLogo/SidebarLeftTopLogo';
-import SidebarLeftTopOverview from './SidebarLeftTopOverview/SidebarLeftTopOverview';
+import Overview from './Overview/Overview';
 
 const SidebarLeftTop = () => {
     return ( 
         <div className='sidebar-left-top'>
             <SidebarLeftTopLogo />
-            <SidebarLeftTopOverview />
+            <Overview />
             <SidebarLeftTopFriends />
         </div>
      );

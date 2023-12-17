@@ -38,7 +38,7 @@ Ask for advice. */
     align-items: center;
 }
 
-.sidebar-left-top-overview{
+.overview{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -46,7 +46,7 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.sidebar-left-top-overview-header{
+.overview-header{
     display: flex;
     padding: 8px 0px;
     align-items: center;
@@ -54,14 +54,14 @@ Ask for advice. */
     align-self: stretch;
 }
 
-.sidebar-left-top-overview-header-text{
+.overview-header-text{
     color: #3F3F3F;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.sidebar-left-top-overview-list{
+.overview-list{
     display: flex;
     flex-direction: column;
     justify-content: center;
