@@ -1,9 +1,9 @@
-import SidebarRightProfile from './SidebarRightProfile/SidebarRightProfile';
+import Profile from './Profile/Profile';
 
 const SidebarRight = () => {
     return ( 
         <div className='sidebar-right'>
-            <SidebarRightProfile />
+            <Profile />
         </div>
      );
 }
