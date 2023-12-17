@@ -430,10 +430,107 @@
     height: 24px;
 }
 
+.videos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.videos-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.videos-header-text{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.videos-header-btns{
+    display: flex;
+    gap: 12px;
+}
+
+.videos-header-btns-item{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #9e9e9e;
+}
+
+.videos-header-btns-item svg{
+    width: 12px;
+    height: 12px;
+}
+
+.videos-list{
+    display: flex;
+    padding: 12px;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+.videos-item{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    position: relative;
+    outline: 1px solid red;
+}
+
 .videos-item-thumb{
-    height: 113px;
+    max-width: 100%;
     border-radius: 12px;
-    align-self: stretch;
+}
+
+.videos-item-category{
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(112, 45, 255, 0.20);
+    color: #702DFF;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.videos-item-title{
+    color: #202020;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.videos-item-progress{
+    display: flex;
+    height: 6px;
+    background-color: #d9d9d9;
+    width: 100%;
+    border-radius: 20px
+}
+
+.videos-item-progress-completed{
+    height: 6px;
+    background-color: #702dff;
+    border-radius: 20px;
+}
+
+.videos-item-uploader{
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .videos-item-uploader-image-mask{
@@ -452,6 +549,43 @@
 .mentors-list-instructor-image-mask img{
     width: 24px;
     height: 24px;
+}
+
+.videos-item-uploader-details{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.videos-item-uploader-name{
+    color: #202020;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.videos-item-uploader-job{
+    color: #202020;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.videos-item-heart{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(204, 204, 204, 0.50);
+    position: absolute;
+    top: 7%;
+    left: 84%;
+}
+
+.videos-item-heart svg{
+    width: 8px;
+    height: 8px;
 }
 
 .sidebar-right{
