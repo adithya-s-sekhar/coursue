@@ -3,7 +3,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .app{
+    width: 100%;
     display: flex;
+    gap: 32px;
+    border-radius: 20px;
+    font-family: Inter,sans-serif;
+    background-color: #fff;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.sidebar-left{
+    order: 1;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 32px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+.sidebar-left-top{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.logo{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding: 6px;
+}
+
+.logo-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: #702dff;
+    border-radius: 50%;
+}
+
+.logo-icon svg{
+    width: 20px;
+    height: 20px;
+}
+
+.logo-text{
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #702DFF -3.24%, #7550FB 29.22%, #4A3AFF 74%, #4A3AFF 101.79%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.overview-header{
+    padding: 8px 0px;
+}
+
+.overview-header-text{
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.overview-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px 0px;
+}
+
+.overview-item{
+    display: flex;
+    padding: 8px 0px;
+    gap: 12px;
+    align-items: center;
+}
+
+.overview-item-icon{
+    display: flex;
+}
+
+.overview-item-icon svg{
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-item-text{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.active{
+    color: #702DFF;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.friends-header{
+    padding: 8px 0px;
+}
+
+.friends-header-text{
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.friends-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.friends-item{
+    display: flex;
+    gap: 8px;
 }
 
 .friends-item-image-mask{
@@ -15,6 +149,77 @@
 
 .friends-item-image-mask img{
     max-width: 24px;
+}
+
+.friends-item-details{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.friends-item-details-name{
+    color: #202020;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.friends-item-details-job{
+    color: #202020;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: capitalize;  
+}
+
+.settings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-header{
+    padding: 8px 0px;
+}
+
+.settings-header-text{
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.settings-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.settings-item{
+    display: flex;
+    padding: 8px 0px;
+    gap: 12px;
+}
+
+.settings-item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-icon-svg{
+    width: 16px;
+    height: 16px;
+}
+
+.settings-item-name{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-content{
+    order: 2;
+    flex: 1;
 }
 
 .videos-item-thumb{
@@ -39,6 +244,18 @@
 .mentors-list-instructor-image-mask img{
     width: 24px;
     height: 24px;
+}
+
+.sidebar-right{
+    order: 3;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;;
+    align-self: stretch;
+    border-radius: 0px 20px 20px 0px;
+    background: #FFF;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
 
 .mini-profile-circle-image-mask{
