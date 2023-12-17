@@ -268,6 +268,112 @@
     height: 32px;
 }
 
+.ad{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #702dff;
+    padding: 20px 24px;
+}
+
+.ad-text{
+    order: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ad-text-heading{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ad-text-caption{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ad-text-join{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #202020;
+    border-radius: 40px;
+    gap: 12px;
+}
+
+.ad-text-join-label{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ad-text-join-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.ad-text-join-icon svg{
+    width: 8px;
+    height: 8px;
+}
+
+.ad-decor{
+    order: 2;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    outline: 1px solid red;
+}
+
+.ad-decor-star1 {
+    fill: rgba(255, 255, 255, 0.25);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 23%;
+    left: 60%;
+}
+
+
+.ad-decor-star2{
+    width: 61px;
+    height: 118px;
+    position: absolute;
+    fill: rgba(255, 255, 255, 0.10);
+    outline: 1px solid blue;
+    top: 0%;
+}
+
+.ad-decor-star3{
+    width: 61px;
+    height: 60px;
+    position: absolute;
+    fill: rgba(255, 255, 255, 0.10);
+}
+
+.ad-decor-star4{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    fill: rgba(255, 255, 255, 0.10);
+}
+
+.ad-decor-star5{
+    width: 80px;
+    height: 118px;
+    position: absolute;
+    fill: rgba(255, 255, 255, 0.10);
+}
+
 .videos-item-thumb{
     height: 113px;
     border-radius: 12px;
