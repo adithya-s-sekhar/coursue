@@ -1,5 +1,3 @@
-import './MainContentMentorsListAction.css';
-
 const MainContentMentorsListAction = (props) => {
     const action = props.action;
 

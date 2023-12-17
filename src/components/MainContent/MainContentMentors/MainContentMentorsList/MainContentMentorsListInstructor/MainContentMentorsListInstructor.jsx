@@ -1,5 +1,3 @@
-import './MainContentMentorsListInstructor.css'
-
 const MainContentMentorsListInstructor = (props) => {
     const image = props.image;
     const name = props.name;

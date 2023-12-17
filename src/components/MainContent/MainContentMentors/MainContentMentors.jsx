@@ -1,4 +1,3 @@
-import './MainContentMentors.css';
 import MainContentMentorsList from './MainContentMentorsList/MainContentMentorsList';
 
 const MainContentMentors = () => {

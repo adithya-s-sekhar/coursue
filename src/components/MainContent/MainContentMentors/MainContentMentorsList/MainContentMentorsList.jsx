@@ -1,4 +1,3 @@
-import './MainContentMentorsList.css';
 import MainContentMentorsListInstructor from './MainContentMentorsListInstructor/MainContentMentorsListInstructor';
 import MainContentMentorsListTitle from './MainContentMentorsListTitle/MainContentMentorsListTitle';
 import MainContentMentorsListType from './MainContentMentorsListType/MainContentMentorsListType';

@@ -1,5 +1,3 @@
-import './MainContentAd.css';
-
 const MainContentAd = () => {
     return ( 
         <div className='main-content-ad'>

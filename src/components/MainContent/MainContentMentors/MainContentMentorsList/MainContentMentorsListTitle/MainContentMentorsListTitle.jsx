@@ -1,5 +1,3 @@
-import './MainContentMentorsListTitle.css';
-
 const MainContentMentorsListTitle = (props) => {
     const title = props.title;
 

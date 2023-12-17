@@ -1,4 +1,3 @@
-import './MainContentWatchedCards.css';
 import MainContentWatchedCardsItem from './MainContentWatchedCardsItem/MainContentWatchedCardsItem';
 
 const MainContentWatchedCards = () => {

@@ -1,5 +1,3 @@
-import './MainContentMentorsListType.css';
-
 const MainContentMentorsListType = (props) => {
     const type = props.type;
 

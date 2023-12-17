@@ -1,4 +1,3 @@
-import './MainContentVideoItem.css';
 
 const MainContentVideoItem = (props) => {
     const thumb = props.thumb;

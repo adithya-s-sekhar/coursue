@@ -1,5 +1,3 @@
-import './MainContentWatchedCardsItem.css';
-
 const MainContentWatchedCardsItem = (props) => {
     const subject = props.subject;
     const total = props.total;

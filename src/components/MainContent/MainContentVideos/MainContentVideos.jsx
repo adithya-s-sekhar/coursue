@@ -1,4 +1,3 @@
-import './MainContentVideos.css';
 import MainContentVideoItem from './MainContentVideoItem/MainContentVideoItem';
 
 const MainContentVideos = () => {
