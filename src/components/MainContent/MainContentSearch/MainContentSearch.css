@@ -5,3 +5,46 @@
     align-items: flex-start;
     align-self: stretch;
 }
+
+.main-content-search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+
+}
+
+.main-content-search-box svg{
+    position: absolute;
+    left: 4%;
+}
+
+.main-content-search-box input{
+    text-indent: 6%;
+    background: #FFF;
+    padding: 20px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(204, 204, 204, 0.80);
+    color: #9E9E9E;
+    font-size: 12px;
+    font-weight: 500;
+    align-self: stretch;
+    width: 100%;
+}
+
+.main-content-search-filter{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 50px;
+}
+
+.main-content-search-filter svg{
+    width: 32px;
+    height: 32px;
+}
