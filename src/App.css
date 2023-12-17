@@ -11,6 +11,20 @@
     /* check this justify after main content */
 }
 
+/* Sidebar Left */
+
+.sidebar-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 32px;
+
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
 /* Main Content */
 
 .main-content{
@@ -562,20 +576,6 @@
     font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
-}
-
-/* Sidebar Left */
-
-.sidebar-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: stretch;
-    justify-content: space-between;
-    padding: 32px;
-
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
 
 /* Sidebar Right */
