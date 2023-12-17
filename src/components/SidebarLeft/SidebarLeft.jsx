@@ -1,4 +1,3 @@
-import './SidebarLeft.css';
 import SidebarLeftBottom from './SidebarLeftBottom/SidebarLeftBottom';
 import SidebarLeftTop from './SidebarLeftTop/SidebarLeftTop';
 

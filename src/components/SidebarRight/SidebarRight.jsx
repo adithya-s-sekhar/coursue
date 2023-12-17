@@ -1,4 +1,3 @@
-import './SidebarRight.css';
 import SidebarRightProfile from './SidebarRightProfile/SidebarRightProfile';
 
 const SidebarRight = () => {

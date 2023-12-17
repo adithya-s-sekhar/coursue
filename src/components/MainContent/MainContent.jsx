@@ -1,4 +1,3 @@
-import './MainContent.css';
 import MainContentAd from './MainContentAd/MainContentAd';
 import MainContentMentors from './MainContentMentors/MainContentMentors';
 import MainContentVideos from './MainContentVideos/MainContentVideos';

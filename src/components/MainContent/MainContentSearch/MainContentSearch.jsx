@@ -1,5 +1,3 @@
-import './MainContentSearch.css';
-
 const MainContentSearch = () => {
     return ( 
         <div className='main-content-search'>
