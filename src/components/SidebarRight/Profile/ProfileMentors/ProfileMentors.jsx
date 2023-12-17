@@ -54,7 +54,9 @@ const ProfileMentors = () => {
                 />
             </div>
             <div className='profile-mentors-see-all-btn'>
-            
+                <div className='profile-mentors-see-all-btn-text'>
+                    See All
+                </div>
             </div>
         </div>
      );

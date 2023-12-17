@@ -1056,4 +1056,19 @@ Ask for advice. */
     text-transform: capitalize;
 }
 
+.profile-mentors-see-all-btn{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: rgba(112, 45, 255, 0.20);
+    align-self: stretch;
+}
 
+.profile-mentors-see-all-btn-text{
+    color: #702DFF;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+}
