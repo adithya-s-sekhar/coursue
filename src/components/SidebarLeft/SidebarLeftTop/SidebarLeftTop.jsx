@@ -1,4 +1,3 @@
-import './SidebarLeftTop.css';
 import SidebarLeftTopFriends from './SidebarLeftTopFriends/SidebarLeftTopFriends';
 import SidebarLeftTopLogo from './SidebarLeftTopLogo/SidebarLeftTopLogo';
 import SidebarLeftTopOverview from './SidebarLeftTopOverview/SidebarLeftTopOverview';

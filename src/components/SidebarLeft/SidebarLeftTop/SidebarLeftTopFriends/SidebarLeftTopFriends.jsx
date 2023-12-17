@@ -1,12 +1,31 @@
 import './SidebarLeftTopFriends.css';
-import SidebarLeftTopFriendsHeader from './SidebarLeftTopFriendsHeader/SidebarLeftTopFriendsHeader';
-import SidebarLeftTopFriendsList from './SidebarLeftTopFriendsList/SidebarLeftTopFriendsList';
+import SidebarLeftTopFriendsItem from './SidebarLeftTopFriendsItem/SidebarLeftTopFriendsItem';
 
 const SidebarLeftTopFriends = () => {
     return ( 
         <div className='sidebar-left-top-friends'>
-            <SidebarLeftTopFriendsHeader />
-            <SidebarLeftTopFriendsList />
+            <div className='sidebar-left-top-friends-header'>
+                <div className='sidebar-left-top-friends-header-text'>
+                    Friends
+                </div>
+            </div>
+            <div className='sidebar-left-top-friends-list'>
+                <SidebarLeftTopFriendsItem 
+                    image = 'prasant.jpg'
+                    name = 'Prasant'
+                    job = 'Software Developer'
+                />
+                <SidebarLeftTopFriendsItem 
+                    image = 'prasant.jpg'
+                    name = 'Prasant'
+                    job = 'Software Developer'
+                />
+                <SidebarLeftTopFriendsItem
+                    image = 'prasant.jpg'
+                    name = 'Prasant'
+                    job = 'Software Developer'
+                />
+            </div>
         </div>
      );
 }

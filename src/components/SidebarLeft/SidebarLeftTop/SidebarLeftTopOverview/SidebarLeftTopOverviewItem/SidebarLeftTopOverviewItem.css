@@ -1,4 +1,4 @@
-.sidebar-left-top-overview-list-item{
+.sidebar-left-top-overview-item{
     display: flex;
     padding: 8px 0px;
     align-items: center;
@@ -8,12 +8,12 @@
     overflow: hidden;
 }
 
-.sidebar-left-top-overview-list-item-icon svg{
+.sidebar-left-top-overview-item-icon svg{
     width: 16px;
     height: 16px;
 }
 
-.sidebar-left-top-overview-list-item-text{
+.sidebar-left-top-overview-item-text{
     color: #202020;
     font-size: 16px;
     font-weight: 500;

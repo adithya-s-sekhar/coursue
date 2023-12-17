@@ -1,29 +1,29 @@
-.sidebar-left-top-friends-list-item{
+.sidebar-left-top-friends-item{
     display: flex;
     align-items: center;
     gap: 8px;
     align-self: stretch;
 }
 
-.sidebar-left-top-friends-list-item-image-mask{
+.sidebar-left-top-friends-item-image-mask{
     max-width: 24px;
     max-height: 24px;
-    mask-image: url('../../../../../../assets/mask24.png');
+    mask-image: url('../../../../../assets/mask24.png');
     mask-repeat: no-repeat;
 }
 
-.sidebar-left-top-friends-list-item-image-mask img{
+.sidebar-left-top-friends-item-image-mask img{
     max-width: 24px;
 }
 
-.sidebar-left-top-friends-list-item-details{
+.sidebar-left-top-friends-item-details{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
 }
 
-.sidebar-left-top-friends-list-item-details-name{
+.sidebar-left-top-friends-item-details-name{
     align-self: stretch;
     color: #202020;
     font-size: 14px;
@@ -31,7 +31,7 @@
     text-transform: capitalize;
 }
 
-.sidebar-left-top-friends-list-item-details-job{
+.sidebar-left-top-friends-item-details-job{
     align-self: stretch;
     color: #202020;
     font-size: 8px;
