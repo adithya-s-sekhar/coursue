@@ -696,6 +696,20 @@
     padding: 12px;
 }
 
+.mini-profile-icons-item svg{
+    height: 16px;
+    width: 16px;
+}
+
+.graphs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+
+
 .profile-mentors-list-item-image-mask{
     mask-image: url('./assets/mask24.png');
     mask-repeat: no-repeat;
