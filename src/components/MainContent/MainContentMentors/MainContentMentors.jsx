@@ -1,5 +1,4 @@
 import './MainContentMentors.css';
-import MainContentMentorsHeader from './MainContentMentorsHeader/MainContentMentorsHeader';
 import MainContentMentorsList from './MainContentMentorsList/MainContentMentorsList';
 
 const MainContentMentors = () => {
@@ -24,12 +23,21 @@ const MainContentMentors = () => {
         }
     ]
 
-    return ( <div className='main-content-mentors'>
-        <MainContentMentorsHeader />
+    return ( 
+    <div className='main-content-mentors'>
+        <div className='main-content-mentors-header'>
+            <div className='main-content-mentors-header-text'>
+                Your Mentor
+            </div>
+            <div className='main-content-mentors-header-see-all'>
+                <a href='#'>See All</a>
+            </div>
+        </div>
         <MainContentMentorsList 
             mentors = {mentors}
         />
-    </div> );
+    </div>
+    );
 }
  
 export default MainContentMentors;
