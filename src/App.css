@@ -11,6 +11,12 @@
     /* check this justify after main content */
 }
 
+/* Styles were originally split across seperate css files for each component.
+
+Now they are merged into this one because that might override responsive styles from App.css.
+
+Ask for advice. */
+
 /* Sidebar Left */
 
 .sidebar-left{
