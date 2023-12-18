@@ -478,7 +478,7 @@ div{
 
 .videos-list{
     display: flex;
-    padding: 12px;
+    gap: 12px;
     width: 100%;
 }
 
