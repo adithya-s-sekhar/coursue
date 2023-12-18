@@ -3,9 +3,19 @@ import Graphs from './Graphs/Graphs';
 import ProfileMentors from './ProfileMentors/ProfileMentors';
 
 const Profile = () => {
+    function toggleSidebar() {
+        var x = document.getElementById("profile-content");
+        if (x.className === "profile-content") {
+            x.className += " mobile";
+        } else {
+            x.className = "profile-content";
+        }
+    }
+
+
     return ( 
         <div className='profile'>
-            <div className='profile-header'>
+            <div className='profile-header' onClick={toggleSidebar}>
                 <div className='profile-header-text'>
                     Your profile
                 </div>
@@ -17,7 +27,7 @@ const Profile = () => {
                     </svg>
                 </div>
             </div>
-            <div className='profile-content'>
+            <div className='profile-content' id='profile-content'>
                 <MiniProfile 
                     image = 'prasant.jpg'
                     name = 'Prasant'

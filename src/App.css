@@ -1003,6 +1003,19 @@ div{
         gap: 30px;
     }
 
+    .sidebar-right{
+        order: 1;
+        padding: 20px 32px;
+    }
+
+    .header-icon{
+        display: none;
+    }
+
+    .profile-content{
+        display: none;
+    }
+
     .overview,.friends,.sidebar-left-bottom{
         display: none;
     }
