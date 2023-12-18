@@ -2,7 +2,7 @@ import FriendsItem from './FriendsItem/FriendsItem';
 
 const Friends = () => {
     return ( 
-        <div className='friends'>
+        <div className='friends' id='friends'>
             <div className='friends-header'>
                 <div className='friends-header-text'>
                     Friends

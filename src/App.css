@@ -714,8 +714,8 @@ div{
 
 .mentors-item-type-box{
     border-radius: 20px;
-    background: rgba(112, 45, 255, 0.20);
     padding: 2px 8px;
+    background: rgba(112, 45, 255, 0.20);
 }
 
 .mentors-item-type-text{
@@ -745,8 +745,8 @@ div{
 
 .mentors-item-action-box{
     border-radius: 20px;
-    background-color: rgba(51,102,204,0.20);
     padding: 2px 8px;
+    background-color: rgba(51,102,204,0.20);
 }
 
 .mentors-item-action-text{
@@ -985,4 +985,131 @@ div{
     color: #702dff;
     font-size: 12px;
     font-weight: 500;
+}
+
+@media (max-width:480px){
+    .app{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .sidebar-left,.main-content,.sidebar-right{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .sidebar-left{
+        padding: 10px 20px;
+        gap: 30px;
+    }
+
+    .overview,.friends,.sidebar-left-bottom{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .sidebar-left-top{
+        gap: 20px;
+    }
+
+    .ad-text{
+        width: 100%;
+    }
+
+    .ad-decor{
+        display: none;
+    }
+
+    .watched-cards{
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+    }
+    .watched-cards-item{
+        max-width: 100%;
+    }
+
+    .videos-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .videos-header-text{
+        font-size: 24px;
+    }
+
+    .videos-header-btns{
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 70px;
+    }
+
+    .videos-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .videos-item{
+        width: 100%;
+    }
+
+    .mentors{
+        gap: 50px;
+    }
+
+    .mentors-header{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .mentors-header-text{
+        font-size: 24px;
+    }
+
+    .mentors-list-header{
+        display: none;
+    }
+
+    .mentors-header-see-all a{
+        font-size: 18px;
+    }
+
+    .mentors-list{
+        gap: 30px;
+    }
+
+    .mentors-item{
+        flex-direction: column;
+        gap: 20px;   
+        border-radius: 20px;
+        padding: 30px 10px;
+        width: 100%;
+        box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);     
+    }
+
+    .mentors-item-title{
+        order: -1;
+    }
+
+    .mentors-item-title-text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .mentors-item-type-box{
+        background-color: #fff;
+    }
+
+    .mentors-item-action-box{
+        padding: 10px 20px;
+    }
+
+    .mentors-item-action-text{
+        font-size: 14px;
+    }
+
 }
